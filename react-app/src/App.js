@@ -1,10 +1,10 @@
-import Post from "./components/Post";
+import PostSection from "./components/post/PostSection";
 import "./App.css";
 
 function App() {
   return (
     <main>
-      <Post />
+      <PostSection />
     </main>
   );
 }

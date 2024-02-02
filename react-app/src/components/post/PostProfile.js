@@ -1,4 +1,4 @@
-import "./components.css";
+import "./post.css";
 
 function PostProfile({username, image}){
     return (
