@@ -1,11 +1,11 @@
 import PostSection from "./components/post/PostSection";
-import Profile from "./components/profile/Profile";
 import "./App.css";
+import ShowProfile from "./components/ShowProfile";
 
 function App() {
   return (
     <main>
-      <Profile />
+      <ShowProfile />
       <PostSection />
     </main>
   );
