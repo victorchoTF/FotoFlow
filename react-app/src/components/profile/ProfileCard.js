@@ -1,8 +1,8 @@
-import "./post.css";
+import "./profile.css";
 
-function PostProfile({username, image}){
+function ProfileCard({username, image}){
     return (
-        <div className="post-profile">
+        <div className="profile-card">
             <img src={image} alt="profile"/>
              <label className="username">
                 {username}
@@ -11,4 +11,4 @@ function PostProfile({username, image}){
     );
 }
 
-export default PostProfile;
+export default ProfileCard;
