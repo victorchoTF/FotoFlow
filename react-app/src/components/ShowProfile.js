@@ -13,7 +13,7 @@ function ShowProfile() {
     <aside className={isOpen ? 'open' : 'close'}>
         <Profile />
         <button className="toggle-button" onClick={handleButtonClick}>
-            {isOpen ? '<' : '>'}
+            {isOpen ? '<=' : '=>'}
         </button>
     </aside>
   );
