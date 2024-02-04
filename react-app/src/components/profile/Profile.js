@@ -4,7 +4,7 @@ import "./profile.css";
 
 function Profile(){
     return (
-        <section class="profile">
+        <section className="profile">
             <ProfileData />
             <ProfileImages imageCount={10}/>
         </section>

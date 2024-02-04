@@ -15,7 +15,11 @@ function PostSection(){
 
     return (
         <section>
-            {usernames.map(username => <Post image={constants.image} username={username} postImage={constants.postImage} />)}
+            {usernames.map((username, idx) => <Post 
+                                                image={constants.image} 
+                                                username={username}
+                                                postImage={constants.postImage}
+                                                key={username+idx} />)}
         </section>
     );
 }

@@ -3,7 +3,7 @@ import "./components.css";
 import Profile from "./profile/Profile";
 
 function ShowProfile() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleButtonClick = () => {
     setIsOpen(!isOpen);

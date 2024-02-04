@@ -13,8 +13,8 @@ function ProgileImages({imageCount}){
     const images = fetchImages();
 
     return (
-        <div class="profile-posts">
-            {images.map(image => <img src={image} alt="post" className="profile-post" />)}
+        <div className="profile-posts">
+            {images.map((image, idx) => <img src={image} alt="post" className="profile-post" key={image+idx}/>)}
         </div>
     );
 }
