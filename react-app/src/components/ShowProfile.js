@@ -15,6 +15,9 @@ function ShowProfile() {
         <button className="toggle-button" onClick={handleButtonClick}>
             {isOpen ? '<=' : '=>'}
         </button>
+        <button className="add-post-button">
+            Add
+        </button>
     </aside>
   );
 }

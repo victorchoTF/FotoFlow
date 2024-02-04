@@ -6,7 +6,7 @@ function Profile(){
     return (
         <section className="profile">
             <ProfileData />
-            <ProfileImages imageCount={10}/>
+            <ProfileImages imageCount={9}/>
         </section>
     );
 }
