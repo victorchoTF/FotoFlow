@@ -35,4 +35,7 @@ button {
 .add-post-button {
     transform: translate(-475%, 450%);
 }
-  
+
+.recommenendations{
+    display: flex;
+}
